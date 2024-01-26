@@ -1,11 +1,16 @@
 {
   "name": "seczure",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "build/index.js",
   "repository": "https://github.com/Tecvity/seczure",
   "author": "Najam Ul Saqib <najamulsaqib@tutamail.com>",
   "license": "MIT",
+  "scripts": {
+    "compile": "tsc && copyfiles -f src/index.html build",
+    "start": "npm run compile && electron ."
+  },
   "devDependencies": {
+    "copyfiles": "^2.4.1",
     "electron": "^28.2.0",
     "typescript": "^5.3.3"
   }
