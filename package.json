@@ -1,0 +1,12 @@
+{
+  "name": "seczure",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Tecvity/seczure",
+  "author": "Najam Ul Saqib <najamulsaqib@tutamail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.2.0",
+    "typescript": "^5.3.3"
+  }
+}
